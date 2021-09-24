@@ -1,0 +1,3 @@
+Add input audio file into this folder.
+The code expects file with "input.wav" name.
+The audio file should be 24-bit/44100Hz mono format.

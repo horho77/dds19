@@ -1,0 +1,31 @@
+# Apple
+.DS_Store
+
+# PyCharm & CLion
+.idea
+
+# Python
+__pycache__/
+
+# CMake
+cmake-build-*
+
+# Dataset audio directory
+dds-nn/dataset/*
+!dds-nn/dataset/.gitkeep
+
+# Models directory
+dds-nn/model/*
+lstm-eigen/model/*
+!lstm-eigen/model/add_model_here.txt
+
+# Process directory
+dds-nn/process
+lstm-eigen/process/*
+!lstm-eigen/process/add_audio_here.txt
+
+# Test directory
+dds-nn/test
+
+# TensorBoard
+dds-nn/runs
